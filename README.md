@@ -10,10 +10,14 @@ python -m venv venv
 venv/Scripts/activate.bat
 ```
 
+#
+
 * Установить зависимости из файла requirements.txt:
 ```
 pip install -r requirements.txt
 ```
+
+#
 
 * Выполнить миграции:
 ```
@@ -22,6 +26,8 @@ python manage.py makemigrations
 ```
 python manage.py migrate
 ```
+
+#
 
 Чтобы запустить проект, перейдите в папку blogicum и выполните следующую команду:
 ```
